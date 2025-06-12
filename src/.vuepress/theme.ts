@@ -20,7 +20,7 @@ export default hopeTheme({
   // 导航栏
   navbar,
 
-  // 侧边栏
+  // 侧边栏 注释掉侧边栏，使用自定义
   sidebar,
 
   // 页脚

@@ -23,50 +23,54 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "分组1",
-      icon: "java",
+      text: "算法01",
+      icon: "book",
       prefix: "posts/",
       collapsible: true,
       children: [
         {
-          text: "分组1-1",
-          prefix: "apple/",
+          text: "算法",
+          prefix: "算法/",
           collapsible: true,
-          children: "structure",
-        },
-        {
-          text: "分组1-2",
-          prefix: "banana/",
-          collapsible: true,
-          children: "structure",
-        }
-      ],
-    },
-
-    {
-      text: "设计模式",
-      icon: "java",
-      prefix: "posts/",
-      collapsible: true,
-      children: [
-        {
-          text: "分组1-1",
-          prefix: "apple/",
-          collapsible: true,
-          children: "structure",
-        },
-        {
-          text: "分组1-2",
-          prefix: "banana/",
-          collapsible: true,
-          children: "structure",
+          children: [
+            {
+              text: "左程云算法学习",
+              prefix: "左程云算法学习/",
+              collapsible: true,
+              children: [
+                {
+                  text: "01经典排序",
+                  prefix: "01经典排序/",
+                  collapsible: true,
+                  children: "structure",
+                },
+                {
+                  text: "02链表",
+                  prefix: "02链表/",
+                  collapsible: true,
+                  children: [
+                    {
+                      text: "判断单链表是否为回文结构",
+                      link: "判断单链表是否为回文结构",
+                    }
+                  ],
+                },
+                {
+                  text: "03二叉树",
+                  prefix: "03二叉树/",
+                  collapsible: true,
+                  children: "structure",
+                },
+              ],
+            }
+          ],
         }
       ],
     },
     {
       text: "算法",
       icon: "book",
-      prefix: "posts/",
+      prefix: "算法/",
       collapsible: true,
       children: [
         {
@@ -84,7 +88,12 @@ export default sidebar({
                 text: "02链表",
                 prefix: "02链表/",
                 collapsible: true,
-                children: "structure",
+                children: [
+                  {
+                    text: "判断单链表是否为回文结构",
+                    link: "判断单链表是否为回文结构",
+                  }
+                ],
               },
               {
                 text: "03二叉树",
