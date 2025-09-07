@@ -140,6 +140,38 @@ export default sidebar({
               children: "structure",
             },
           ],
+        },
+        {
+          text: "面试高频算法",
+          icon: "book",
+          prefix: "面试高频算法/",
+          collapsible: true,
+          children: [
+            {
+              text: "leetcode100",
+              prefix: "leetcode100/",
+              collapsible: true,
+              children: "structure",
+            },
+            {
+              text: "牛客100",
+              prefix: "牛客100/",
+              collapsible: true,
+              children: [
+                {
+                  text: "01链表",
+                  prefix: "01链表/",
+                  collapsible: true,
+                  children: [
+                      {
+                        text: "链表",
+                        link: "链表",
+                      }
+                  ]
+                }
+              ],
+            }
+          ],
         }
       ],
     },
