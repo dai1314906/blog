@@ -124,9 +124,7 @@ export default sidebar({
           children: [
             {
               text: "线上问题排查指南",
-              prefix: "线上问题排查指南/",
-              collapsible: true,
-              children: "structure",
+              link: "线上问题排查指南"
             },
           ],
         }
