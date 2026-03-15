@@ -101,6 +101,34 @@ export default sidebar({
                 ],
               },
           ],
+        },
+        {
+          text: "MQ篇",
+          icon: "book",
+          prefix: "MQ篇/",
+          collapsible: true,
+          children: [
+            {
+              text: "消息丢失和消息重复问题",
+              prefix: "消息丢失和消息重复问题/",
+              collapsible: true,
+              children: "structure",
+            },
+          ],
+        },
+        {
+          text: "线上问题排查指南",
+          icon: "book",
+          prefix: "线上问题排查指南/",
+          collapsible: true,
+          children: [
+            {
+              text: "线上问题排查指南",
+              prefix: "线上问题排查指南/",
+              collapsible: true,
+              children: "structure",
+            },
+          ],
         }
       ],
     },
