@@ -228,6 +228,8 @@ npm config set registry https://registry.npmmirror.com
 
 npm install -g cnpm --registry=https://registry.npmmirror.com
 
+npm config set python "D:\developlanguage\python\py2.7\python.exe"
+
 **这个每个版本切换后注意都要指定一下**
 
 ![配置全局模块路径和缓存路径](.\img\25.png)
@@ -262,4 +264,21 @@ path变量的设置和用户变量中一致
 
 
 2、验证谷粒商城，使用的是10.16.3
+
+
+
+![验证项目-人人fastvue](.\img\32.png)
+
+3、卸载多余的node版本
+
+![卸载node](.\img\33.png)
+
+
+
+```sh
+# 卸载具体版本
+nvm uninstall 14.16.1 (具体的版本)
+```
+
+
 
